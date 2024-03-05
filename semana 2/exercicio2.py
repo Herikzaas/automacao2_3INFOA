@@ -7,3 +7,7 @@ A nota for menor que 6 ou se as presencas
 forem menor do que 75 e aprovado 
 caso contrário.
 '''
+nota,falta = map(int,input().split())
+
+if nota < 6 or falta > 75 :
+    print('REPROVADO')
